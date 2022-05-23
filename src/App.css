@@ -1,10 +1,252 @@
 .App {
-  text-align: center;
+  background-color: #23252C;
+  position: absolute;
+  width: 550px;
+  height: 868px;
+  left: 65px;
+  top: 53px;
+  font-family: 'Inter';
+
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App-picture {
+  position: absolute;
+  width: 317px;
+  height: 317px;
+  left: 116px;
+  top: 44px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.info-box {
+  position: absolute;
+  width: 317px;
+  height: 399px;
+  left: 116px;
+  top: 361px;
+
+  background: #1A1B21;
+}
+
+.contact-info {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+}
+
+.name {
+  /* width: 178.06px; */
+
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  text-align: center;
+  margin-bottom:0px;
+  color: #FFFFFF;
+}
+
+.title {
+  /* width: 178.06px; */
+
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12.8px;
+  text-align: center;
+  margin-top:0px;
+
+  margin-bottom:0px;
+
+  color: #F3BF99;
+}
+
+
+.email {
+  /* width: 228px; */
+
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  /* identical to box height, or 15px */
+
+  text-align: center;
+  margin-top:5px;
+  margin-bottom: 10px;
+
+  color: #F5F5F5;
+}
+
+.contactButtons {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.email-button {
+  width: 115px;
+  height: 34px;
+  padding-right: 10px;
+
+}
+
+.linkedIn-button {
+  width: 115px;
+  height: 34px;
+  padding-left: 10px;
+
+}
+
+.summary {
+  display: flex;
+  flex-direction: column;
+  padding-left: 34px;
+  padding-right: 34px;
+}
+
+.summary-title {
+  width: 242.71px;
+  height: 21px;
+  left: 152px;
+  top: 535px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  /* or 24px */
+  color: #F5F5F5;
+  margin-bottom: 0px;
+}
+
+
+.summary-text {
+  width: 247px;
+  height: 61px;
+  left: 152px;
+  top: 561px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%;
+  /* or 15px */
+
+
+  color: #DCDCDC;
+  margin-bottom: 10px;
+
+}
+
+.interests-title {
+  width: 242.71px;
+  height: 21px;
+  left: 152px;
+  top: 649px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  /* or 24px */
+
+
+  color: #F5F5F5;
+  margin-bottom: 0px;
+
+}
+
+
+.interests-text {
+  width: 247px;
+  height: 61px;
+  left: 152px;
+  top: 675px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%;
+  /* or 15px */
+
+
+  color: #DCDCDC;
+}
+
+.social-media {
+  position: absolute;
+  width: 317px;
+  height: 64px;
+  left: 116px;
+  top: 760px;
+
+  background: #161619;
+  border-radius: 0px 0px 10px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.social-media-inner {
+  padding: 10px, 10px, 10px, 10px;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
+
+
+}
+
+.twitter-icon {
+
+
+  left: 34.36%;
+  right: 61.09%;
+  top: 89.75%;
+  bottom: 7.37%;
+
+  background: #918E9B;
+  padding: 10px, 10px, 10px, 10px;
+}
+
+.facebook-icon {
+  left: 43.27%;
+  right: 52.18%;
+  top: 89.75%;
+  bottom: 7.37%;
+
+  background: #918E9B;
+  padding: 10px, 10px, 10px, 10px;
+}
+
+.instagram-icon {
+  left: 52.18%;
+  right: 43.27%;
+  top: 89.75%;
+  bottom: 7.37%;
+
+  background: #918E9B;
+}
+
+.github-icon {
+  left: 61%;
+  right: 34.45%;
+  top: 89.8%;
+  bottom: 7.32%;
+
+  background: #918E9B;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -32,6 +274,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
