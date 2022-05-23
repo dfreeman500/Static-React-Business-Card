@@ -1,7 +1,7 @@
 # Static React Business Card
 
 
-This is a just a Solo Project Challenge from Scrimba.com. The challenge is to create a static/noninteractive react page for a digital business card using a Figma.com design. Images are from the Figma design.
+This is a just a Solo Project Challenge from Scrimba.com. The challenge is to create a static/noninteractive react page that looks like one of the digital business cards found on Figma.com. This project was created locally using Create React App for bootstrapping (Scrimba encourages using their online environment).
 
 
 * https://scrimba.com/learn/learnreact/
@@ -12,7 +12,7 @@ This is a just a Solo Project Challenge from Scrimba.com. The challenge is to cr
 
 #
 
-Screenshot below:
+Screenshot of development build below:
 
 ![Screenshot](images/screenshot.png) 
 
